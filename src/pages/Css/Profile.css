@@ -1,0 +1,54 @@
+.ProfilePage {
+    padding: 20px;
+    color: white;
+}
+
+.ProfileHeader {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ProfileImage {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.ProfileTitle {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ProfileContent {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    color: #000;
+}
+
+.PersonalInfo,
+.TravelHistory {
+    margin-bottom: 20px;
+}
+
+.SectionTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.InfoItem,
+.HistoryItem {
+    margin-bottom: 10px;
+}
+
+.HistoryTitle {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.HistoryDate {
+    font-size: 16px;
+    color: #666;
+}

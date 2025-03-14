@@ -1,14 +1,15 @@
 import { root } from '@lynx-js/react';
 import { MemoryRouter, Routes, Route } from 'react-router';
-
-import { App } from './App.tsx';
-import Home from './pages/Home.tsx';
+import Home from './Pages/Home.tsx';
+import Explore from './Pages/Explore.tsx';
+import Profile from './Pages/Profile.tsx';
 
 root.render(
   <MemoryRouter>
     <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="/home" element={<Home />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/explore" element={<Explore />} />
+      <Route path="/profile" element={<Profile />} />
     </Routes>
   </MemoryRouter>,
 );

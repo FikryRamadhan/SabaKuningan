@@ -1,0 +1,28 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e6e6e7;
+    padding: 16px;
+    border-radius: 12px;
+    width: 90%;
+   margin-top: 35px;
+   margin-left: 20px;
+  }
+  
+  .textContainer {
+    flex: 1;
+  }
+  
+  .title {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .description {
+    color: #343434;
+    font-size: 12px;
+    margin-top: 4px;
+  }

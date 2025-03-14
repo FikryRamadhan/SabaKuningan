@@ -1,0 +1,38 @@
+.cardCategory {
+    background-color:#e6e6e7;
+    margin: 10px;
+    padding: 16px;
+    border-radius: 12px;
+    width: 90%;
+    align-self: center;
+}
+
+.headerCategory {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.title {
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.categories2 {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    flex-direction: row;
+    justify-content: start;
+    gap: 50px;
+}
