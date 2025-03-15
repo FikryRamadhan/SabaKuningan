@@ -1,9 +1,43 @@
 .Background {
   background-color: #040d1f;
-  height: 100vh;
+  height: 100%;
   width: 100%;
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.wisata-page {
+  padding-left: 10px;
+  padding-right: 20px;
+  padding-top: 10px;
+  color: white;
+  width: 100%;
+  height: max-content;
+  overflow: scroll;
+}
+
+.section {
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  border-bottom: 2px solid white;
+  display: inline-block;
+  padding-bottom: 5px;
+  color: white;
+}
+
+.wisata-row {
+  display: flex;
+  gap: 10px;  
+  margin-left: 10px;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  padding-bottom: 10px;
 }
 
