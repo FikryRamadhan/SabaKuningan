@@ -5,6 +5,8 @@ import Header from '../Components/Header.tsx'
 import CardOption from '../Components/CardOption.tsx'
 import WisataCard from '../Components/WisataCard.tsx'
 import data from '../Hooks/Data.ts'
+
+
 const Home = () => {
     const dataTerbaik = data.filter((item) => item.rating >= 4.5)
     const dataTerbaru = data.filter((item) => item.id <= 5)
